@@ -74,11 +74,11 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
-| `git rebase -i HEAD~2` |  |
-| `git rebase --abort` |  |
-| `git rebase --continue` |  |
-| `git reset --hard HEAD^` |  |
-| `git reset --hard HEAD~5` |  |
-| `git revert (commit_hash)` |  |
+| `git rebase -i HEAD~2` |  
+| `git rebase --abort` |  
+| `git rebase --continue` |  
+| `git reset --hard HEAD^` |  
+| `git reset --hard HEAD~5` |  
+| `git revert (commit_hash)` |  
 
 
