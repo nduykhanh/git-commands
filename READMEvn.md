@@ -27,7 +27,9 @@ _A list of my commonly used Git commands_
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit --amend` | Commit no log |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+
 
 ### Branching & Merging
 
@@ -52,6 +54,8 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
+| `git push` | Push current branch to your remote repository |
+| `git push -f` | Force push |
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
@@ -66,6 +70,15 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git log` | View changes |
+| `git log --oneline` | View changes one line|
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+| `git rebase -i HEAD~2` |  |
+| `git rebase --abort` |  |
+| `git rebase --continue` |  |
+| `git reset --hard HEAD^` |  |
+| `git reset --hard HEAD~5` |  |
+| `git revert (commit_hash)` |  |
+
 
